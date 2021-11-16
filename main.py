@@ -29,7 +29,7 @@ def generate_password():
 def save():
     # messagebox.showinfo("entry", user_entry.get())
     web_name = web_entry.get()
-    user_name = web_entry.get()
+    user_name = user_entry.get()
     password = pass_entry.get()
 
     if web_name == "" or password == "":
